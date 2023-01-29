@@ -1,8 +1,6 @@
   # Part1
-  ![Image](image2-1.png)
-  ![Image](image2-2.png)
   ```
-  import java.io.IOException;
+import java.io.IOException;
 import java.net.URI;
 
 class Handler implements URLHandler {
@@ -24,8 +22,8 @@ class Handler implements URLHandler {
             if (url.getPath().contains("/add-message")) {
                 String[] parameters = url.getQuery().split("=");
                 if (parameters[0].equals("s")) {
-                    str += "\n";
                     str += parameters[1];
+                    str += "\n";
                     return String.format(str );
                 }
             }
@@ -47,8 +45,10 @@ class StringServer {
     }
     
 }
-
   ```
-  ![Image](image3.PNG)
+  ![Image](Image1.png)
+  In the first picture, I call the method ```handleRequest```. My program have the setting that it must detect ```/add-message?s=``` before input the string we want to add, which means that if there do not have ```/add-message?s=``` it won't add the string and would goes to the other output that we are not expected. After the program detecting ```/add-message?s=```, I make the ```parameters[1]``` become "Hello". Here I add the ```Hello ``` to  ```str```, ```str```  become ```Hello\n```. It acctually finish the thing we expected what it should do.
+  ![Image](Image2.png)
+    In the second picture, I call the method ```handleRequest``` too. I make the ```parameters[1]``` become "How are you". Here I add the ```How are you ``` to  ```str```, ```str```  become ```Hello\nHow are you\n```. By the way, my program have the setting that it must detect ```/add-message?s=``` before input the string we want to add, which means that if there do not have ```/add-message?s=``` it won't add the string and would goes to the other output that we are not expected.  It acctually finish the thing we expected what it should do.
   # Part2
   # Part3
