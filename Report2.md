@@ -1,6 +1,6 @@
   # Part1
-  ![Image](image2-1.PNG)
-  ![Image](image2-2.PNG)
+  ![Image](image2-1.png)
+  ![Image](image2-2.png)
   ```
   import java.io.IOException;
 import java.net.URI;
