@@ -1,4 +1,5 @@
   # Part 1
+  Create the StringSever
   
   ```
 import java.io.IOException;
@@ -54,7 +55,7 @@ class StringServer {
     
   #  Part 2
   
-   The failure-inducing input for the buggy program:
+   ## The failure-inducing input for the buggy program:
   ```
   @Test 
 	public void testReverseInPlace() {
@@ -72,7 +73,7 @@ class StringServer {
   ```
   The symptom of this input:
   ![Image](failed.png)
-   The input that doesn’t induce a failure:
+   ## The input that doesn’t induce a failure:
   ```
   @Test 
 	public void testReverseInPlace() {
@@ -91,7 +92,7 @@ class StringServer {
   The symptom of this input:
   ![Image](sucess.png)
     Fixing the bug:
-  The code before fixing:
+  ## The code before fixing:
   ```
     public class ArrayExamples {
 
@@ -129,7 +130,7 @@ class StringServer {
   }
   }
   ```
-  The code after fixing:
+  ## The code after fixing:
   ```
   public class ArrayExamples {
 
