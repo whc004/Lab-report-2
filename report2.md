@@ -1,5 +1,4 @@
   # Part 1
-  Create the StringSever
   
   ```
 import java.io.IOException;
