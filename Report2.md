@@ -172,3 +172,4 @@ class StringServer {
 }
   ```
   # Part3
+I learned how to create a github account and operating it. It is very cool that having a webpage that is create by myself because I can add my own project or some course work on it and make my own computer science profile. I think it definitely helps when finding a job. Additionally, I learned how to run the sever on a remote computer, which is something I have never experienced.
