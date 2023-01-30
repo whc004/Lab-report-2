@@ -1,4 +1,4 @@
-    Part 1
+  # Part 1
   
   ```
 import java.io.IOException;
@@ -54,7 +54,7 @@ class StringServer {
     
   #  Part 2
   
-  ##  The failure-inducing input for the buggy program:
+   The failure-inducing input for the buggy program:
   ```
   @Test 
 	public void testReverseInPlace() {
@@ -72,7 +72,7 @@ class StringServer {
   ```
   The symptom of this input:
   ![Image](failed.png)
-  ## The input that doesn’t induce a failure:
+   The input that doesn’t induce a failure:
   ```
   @Test 
 	public void testReverseInPlace() {
@@ -90,7 +90,7 @@ class StringServer {
   ```
   The symptom of this input:
   ![Image](sucess.png)
-  ##  Fixing the bug:
+    Fixing the bug:
   The code before fixing:
   ```
     public class ArrayExamples {
