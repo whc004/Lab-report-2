@@ -1,4 +1,4 @@
-  # Part1
+  #  Part1
   ```
 import java.io.IOException;
 import java.net.URI;
@@ -50,7 +50,7 @@ class StringServer {
   In the first picture, I call the method ```handleRequest```. My program have the setting that it must detect ```/add-message?s=``` before input the string we want to add, which means that if there do not have ```/add-message?s=``` it won't add the string and would goes to the other output that we are not expected. After the program detecting ```/add-message?s=```, I make the ```parameters[1]``` become "Hello". Here I add the ```Hello ``` to  ```str```, ```str```  become ```Hello\n```. It acctually finish the thing we expected what it should do.
   ![Image](Image2.png)
     In the second picture, I call the method ```handleRequest``` too. I make the ```parameters[1]``` become "How are you". Here I add the ```How are you ``` to  ```str```, ```str```  become ```Hello\nHow are you\n```. By the way, my program have the setting that it must detect ```/add-message?s=``` before input the string we want to add, which means that if there do not have ```/add-message?s=``` it won't add the string and would goes to the other output that we are not expected.  It acctually finish the thing we expected what it should do.
-  # Part2
+  #  Part2
   ## The failure-inducing input for the buggy program:
   ```
   @Test 
@@ -171,5 +171,5 @@ class StringServer {
   }
 }
   ```
-  # Part3
+  #  Part3
 I learned how to create a github account and operating it. It is very cool that having a webpage that is create by myself because I can add my own project or some course work on it and make my own computer science profile. I think it definitely helps when finding a job. Additionally, I learned how to run the sever on a remote computer, which is something I have never experienced.
